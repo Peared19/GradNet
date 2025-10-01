@@ -15,13 +15,14 @@ edges_sobel/val2017/
 # Letöltött zip fájlok
 *.zip
 
-# PyTorch modellek
+# PyTorch modellek (kivéve a legjobb modell)
 *.pth
 *.pt
+!checkpoints/best_combined.pth
 
-# Checkpoint mappák tartalma (kivéve a mappa struktúrát)
-checkpoints/*.pth
+# Validation képek (csak néhány példát tartunk meg)
 checkpoints/val_preds/*.png
+!checkpoints/val_preds/epoch20_val*.png
 
 # De megtartjuk a mappa struktúrát
 !checkpoints/.gitkeep
