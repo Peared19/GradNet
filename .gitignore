@@ -23,6 +23,10 @@ edges_sobel/val2017/
 checkpoints/*.pth
 checkpoints/val_preds/*.png
 
+# De megtartjuk a mappa struktúrát
+!checkpoints/.gitkeep
+!checkpoints/val_preds/.gitkeep
+
 # Python cache
 __pycache__/
 *.pyc

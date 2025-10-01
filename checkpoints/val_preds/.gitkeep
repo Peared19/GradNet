@@ -1,0 +1,2 @@
+# This file ensures the val_preds directory is included in git
+# Validation prediction images will be saved here but ignored by git

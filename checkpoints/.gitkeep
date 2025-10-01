@@ -1,0 +1,2 @@
+# This file ensures the checkpoints directory is included in git
+# Trained model files (.pth) will be saved here but ignored by git
