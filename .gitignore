@@ -1,0 +1,45 @@
+# Kép fájlok
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# Kép mappák
+coco_subset/train2017_subset/
+coco_subset/val2017/
+edges_sobel/train2017_subset/
+edges_sobel/val2017/
+
+# Letöltött zip fájlok
+*.zip
+
+# PyTorch modellek
+*.pth
+*.pt
+
+# Checkpoint mappák tartalma (kivéve a mappa struktúrát)
+checkpoints/*.pth
+checkpoints/val_preds/*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE fájlok
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
